@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(218, 23%, 16%); 
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  height: 280px;
+  width: 470px;
+  border-radius: 15px;
+  background: hsl(217, 19%, 24%); 
+  /*background: hsl(217, 19%, 38%);*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.circle {
+  position: absolute; 
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: hsl(150, 100%, 66%);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.dice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.divider {
+  width: 444px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 75px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+p {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase; 
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+.circle:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px 6px hsl(150, 100%, 66%);
+}

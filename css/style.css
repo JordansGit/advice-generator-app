@@ -71,7 +71,7 @@ p {
   font-size: 13px;
 }
 
-.circle:hover {
+.active:hover {
   cursor: pointer;
   box-shadow: 0 0 30px 6px hsl(150, 100%, 66%);
 }

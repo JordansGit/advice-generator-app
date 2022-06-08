@@ -23,7 +23,7 @@ Users should be able to:
 - HTML5 
 - CSS 
 - JavaScript
-- API
+- Advice Slip API
 
 ### Screenshot
 
